@@ -63,33 +63,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Editor\PoseEaserEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Editor\PoseFreezerEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\Attribute\Editor\CustomOrderedEnumAttributeDrawer.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\Utility\Attribute\Editor\FlagsFromEnumAttributeDrawer.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VIUProjectSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VIUSettingsEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VIUVersionCheck.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\DaydreamSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\OculusGoSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\OculusSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\OpenVRSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\SimulatorSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\WaveVRSettings.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\Editor\RenderModelHookEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\Editor\VIUSteamVRActionFile.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\Editor\VIUSteamVRBindingFile.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\Editor\VIUSteamVRLoadJsonFileBase.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\Editor\VIUSteamVRRenderModelEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\Editor\ViveInputVirtualButtonEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\Editor\ViveRolePropertyDrawer.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\Editor\ViveRoleSetterEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Editor\VRModuleManagerEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\Editor\GoogleVRModuleEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\Editor\OculusVRModuleEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\Editor\SteamVRModuleEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\Editor\UnityEngineVRModuleEditor.cs" />
-    <Compile Include="Assets\HTC.UnityPlugin\VRModule\Modules\Editor\WaveVRModuleEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\PoseTracker\Editor\PoseEaserEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\PoseTracker\Editor\PoseFreezerEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\Utility\Attribute\Editor\CustomOrderedEnumAttributeDrawer.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\Utility\Attribute\Editor\FlagsFromEnumAttributeDrawer.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VIUProjectSettings.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VIUSettingsEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VIUVersionCheck.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\DaydreamSettings.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\OculusGoSettings.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\OculusSettings.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\OpenVRSettings.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\SimulatorSettings.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Editor\VRPlatformSettings\WaveVRSettings.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\Editor\RenderModelHookEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\Editor\VIUSteamVRActionFile.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\Editor\VIUSteamVRBindingFile.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\Editor\VIUSteamVRLoadJsonFileBase.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\SteamVRExtension\Editor\VIUSteamVRRenderModelEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\Editor\ViveInputVirtualButtonEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\Editor\ViveRolePropertyDrawer.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\Editor\ViveRoleSetterEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\VRModule\Editor\VRModuleManagerEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\VRModule\Modules\Editor\GoogleVRModuleEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\VRModule\Modules\Editor\OculusVRModuleEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\VRModule\Modules\Editor\SteamVRModuleEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\VRModule\Modules\Editor\UnityEngineVRModuleEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\VRModule\Modules\Editor\WaveVRModuleEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
@@ -325,7 +325,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/UnityProjects/IITP_Mart/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Mart/Assets/9_Standard Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/UnityProjects/IITP_Mart/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

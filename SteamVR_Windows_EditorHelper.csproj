@@ -63,8 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SteamVR\WindowsHelper\SteamVR_Windows_Editor_Helper.cs" />
-    <None Include="Assets\SteamVR\WindowsHelper\SteamVR_Windows_EditorHelper.asmdef" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR\WindowsHelper\SteamVR_Windows_Editor_Helper.cs" />
+    <None Include="Assets\9_Standard Assets\SteamVR\WindowsHelper\SteamVR_Windows_EditorHelper.asmdef" />
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -279,7 +279,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/UnityProjects/IITP_Mart/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Mart/Assets/9_Standard Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/UnityProjects/IITP_Mart/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

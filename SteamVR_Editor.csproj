@@ -63,15 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_AutoEnableVR.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_UnitySettingsWindow.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_UpdateModeEditor.cs" />
-    <None Include="Assets\SteamVR\Editor\SteamVR_Editor.asmdef" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_AutoEnableVR.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_Editor.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_UnitySettingsWindow.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_Update.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_UpdateModeEditor.cs" />
+    <None Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_Editor.asmdef" />
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -286,7 +286,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/UnityProjects/IITP_Mart/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Mart/Assets/9_Standard Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/UnityProjects/IITP_Mart/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

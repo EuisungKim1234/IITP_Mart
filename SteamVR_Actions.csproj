@@ -63,15 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_buggy.cs" />
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_default.cs" />
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_htc_viu.cs" />
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_mixedreality.cs" />
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_platformer.cs" />
-    <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Actions.cs" />
-    <Compile Include="Assets\SteamVR_Input\SteamVR_Input_ActionSets.cs" />
-    <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Initialization.cs" />
-    <None Include="Assets\SteamVR_Input\SteamVR_Actions.asmdef" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_buggy.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_default.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_htc_viu.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_mixedreality.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_platformer.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR_Input\SteamVR_Input_Actions.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR_Input\SteamVR_Input_ActionSets.cs" />
+    <Compile Include="Assets\9_Standard Assets\SteamVR_Input\SteamVR_Input_Initialization.cs" />
+    <None Include="Assets\9_Standard Assets\SteamVR_Input\SteamVR_Actions.asmdef" />
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -280,7 +280,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/UnityProjects/IITP_Mart/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Mart/Assets/9_Standard Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/2019.2.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
