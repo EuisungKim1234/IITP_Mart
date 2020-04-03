@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1F9E67A4-EAD8-CDCB-9906-DC5E048B1BBC}</ProjectGuid>
+    <ProjectGuid>{7310B078-6FBE-6D59-2FFC-1F410C79FD59}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -91,37 +91,37 @@
     <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\VRModule\Modules\Editor\UnityEngineVRModuleEditor.cs" />
     <Compile Include="Assets\9_Standard Assets\HTC.UnityPlugin\VRModule\Modules\Editor\WaveVRModuleEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/2019.2.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -324,11 +324,14 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Assets/6_Generic/Library/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/UnityProjects/IITP_Mart/Assets/9_Standard Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Assets/9_Standard Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/2019.2.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -693,27 +696,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{E6AB3FC5-602C-7F82-E19F-A8D5DB0C9001}</Project>
+      <Project>{FDE43655-8A6B-5222-05D9-C21F644F4D8F}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{11242265-F612-D1D0-5D6C-4F0F20DD616E}</Project>
+      <Project>{0690DA6C-70F4-0C3C-A2ED-D4CC41780336}</Project>
       <Name>SteamVR_Actions</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{ADC4CB54-7380-BBD1-43E7-BC720F85942D}</Project>
+      <Project>{015CC4EE-A7D0-489D-3B4E-0173AB7C2DB3}</Project>
       <Name>SteamVR_Input_Editor</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{1D68E847-0324-ABDF-2B37-6AE01CCAEBA6}</Project>
+      <Project>{6888837D-A8A9-6C57-FBB2-29DDD7816E7C}</Project>
       <Name>SteamVR_Editor</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{DC20F6DE-7D16-6438-6817-B8CEDC453C6C}</Project>
+      <Project>{5F068F29-E61B-A948-196D-21725B7AD8E4}</Project>
       <Name>SteamVR</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{F2787EE7-8C34-A12D-2967-BD927868B36E}</Project>
+      <Project>{9841853F-36BD-957C-8E0E-0CAC6729F31B}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>

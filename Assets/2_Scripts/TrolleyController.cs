@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class TrolleyController : MonoBehaviour
 {
+    /**
+     * @ Function : 트롤리가 자동으로 카메라 따라다니게 함
+     * 
+     * @ Author : Euisung Kim
+     * @ Date : 2020.04.03
+     * @ History :
+     *   - 2020.04.03 Euisung Kim : 최초작성
+     **/
+
     Transform cameraPos;
     Vector3 cameraVector;
     public GameObject trolley;
@@ -18,8 +27,8 @@ public class TrolleyController : MonoBehaviour
     // Update is called once per frame
     void Update()   // trace the main camera's position
     {
-        cameraPos = GameObject.Find("ViveCameraRig").GetComponent<Transform>();
-        cameraVector = GameObject.Find("ViveCameraRig").GetComponent<Transform>().position;
+        cameraPos = GameObject.FindWithTag("MainCamera").GetComponent<Transform>();
+        cameraVector = GameObject.FindWithTag("MainCamera").GetComponent<Transform>().position;
 
         TrolleyPositioning();
     }

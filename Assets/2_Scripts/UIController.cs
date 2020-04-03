@@ -5,6 +5,15 @@ using Valve.VR;
 
 public class UIController : MonoBehaviour
 {
+    /**
+     * @ Function : 일정 조건 만족 시 새로운 메세지(쇼핑리스트) 띄우는 함수
+     * 
+     * @ Author : Euisung Kim
+     * @ Date : 2020.04.03
+     * @ History :
+     *   - 2020.04.03 Euisung Kim : 최초작성
+     **/
+
     private enum State { Yet, Done };       // state that show 1st message or 2nd message
     private State messagingState = State.Yet;   //set up to show 1st message initially
 

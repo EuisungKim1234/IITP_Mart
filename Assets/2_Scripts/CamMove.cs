@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class CamMove : MonoBehaviour
 {
+    /**
+     * @ Function : 키보드로 카메라 조작
+     * 
+     * @ Author : Euisung Kim
+     * @ Date : 2020.04.03
+     * @ History :
+     *   - 2020.04.03 Euisung Kim : 최초작성
+     **/
+
     private float h = 0.0f;
     private float v = 0.0f;
     //private float r = 0.0f;
@@ -11,7 +20,7 @@ public class CamMove : MonoBehaviour
     private Transform tr;
     
 
-    public float moveSpeed = 10.0f; //이동속도 변수
+    public float moveSpeed = 1.0f; //이동속도 변수
     public float rotSpeed = 80.0f;  //회전속도 변수
 
     // Start is called before the first frame update

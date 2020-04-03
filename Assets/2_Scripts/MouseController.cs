@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MouseController : MonoBehaviour
 {
-    private enum state { ready, chosen };
-    private state objectState = state.ready;
+    public enum state { ready, chosen };
+    public state objectState = state.ready;
 
     public string tagName;
 
@@ -59,8 +59,8 @@ public class MouseController : MonoBehaviour
                     GameObject.Find("CountChecker").GetComponent<ObjectCounter>().chipsEA--;
                     GameObject.Find("CountChecker").GetComponent<ObjectCounter>().totalEA--;
                     break;
-                case "Coffee beanEA":
-                    GameObject.Find("CountChecker").GetComponent<ObjectCounter>().coffeebeanEA--;
+                case "CoffeeEA":
+                    GameObject.Find("CountChecker").GetComponent<ObjectCounter>().coffeeEA--;
                     GameObject.Find("CountChecker").GetComponent<ObjectCounter>().totalEA--;
                     break;
                 case "CucumberEA":

@@ -4,14 +4,28 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Cucumber
-  - Baguette
-  - Tomato
-  - Cheese
-  - Coffee bean
-  - Chips
-  - Other stuffs
   - Cabbage
+  - Tomato
+  - Undefined
+  - Pineapple
+  - Other stuffs
+  - Pear
+  - Cucumber
+  - Orange
+  - Potatp
+  - Potato
+  - Jelly
+  - Sugar
+  - Chip
+  - Tuna
+  - Corn
+  - Coffee
+  - Sausage
+  - Cheese
+  - Water
+  - Juice
+  - Milk
+  - Bread
   layers:
   - Default
   - TransparentFX

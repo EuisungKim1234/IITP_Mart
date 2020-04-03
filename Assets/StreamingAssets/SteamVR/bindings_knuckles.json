@@ -1,10 +1,9 @@
 {
-  "controller_type": "knuckles",
-  "description": "",
-  "name": "knuckles_default",
   "bindings": {
     "/actions/buggy": {
       "chords": [],
+      "poses": [],
+      "haptics": [],
       "sources": [
         {
           "path": "/user/hand/left/input/thumbstick",
@@ -87,12 +86,21 @@
           }
         }
       ],
-      "poses": [],
-      "haptics": [],
       "skeleton": []
     },
     "/actions/default": {
       "chords": [],
+      "poses": [],
+      "haptics": [
+        {
+          "output": "/actions/default/out/haptic",
+          "path": "/user/hand/left/output/haptic"
+        },
+        {
+          "output": "/actions/default/out/haptic",
+          "path": "/user/hand/right/output/haptic"
+        }
+      ],
       "sources": [
         {
           "path": "/user/hand/left/input/trigger",
@@ -217,32 +225,6 @@
           }
         },
         {
-          "path": "/user/hand/left/input/grip",
-          "mode": "grab",
-          "parameters": {
-            "force_hold_threshold": "0.02",
-            "force_release_threshold": "0.01"
-          },
-          "inputs": {
-            "grab": {
-              "output": "/actions/default/in/grabgrip"
-            }
-          }
-        },
-        {
-          "path": "/user/hand/right/input/grip",
-          "mode": "grab",
-          "parameters": {
-            "force_hold_threshold": "0.02",
-            "force_release_threshold": "0.01"
-          },
-          "inputs": {
-            "grab": {
-              "output": "/actions/default/in/grabgrip"
-            }
-          }
-        },
-        {
           "path": "/user/hand/left/input/pinch",
           "mode": "grab",
           "parameters": {
@@ -269,39 +251,12 @@
           }
         }
       ],
-      "poses": [
-        {
-          "output": "/actions/default/in/pose",
-          "path": "/user/hand/left/pose/raw"
-        },
-        {
-          "output": "/actions/default/in/pose",
-          "path": "/user/hand/right/pose/raw"
-        }
-      ],
-      "haptics": [
-        {
-          "output": "/actions/default/out/haptic",
-          "path": "/user/hand/left/output/haptic"
-        },
-        {
-          "output": "/actions/default/out/haptic",
-          "path": "/user/hand/right/output/haptic"
-        }
-      ],
-      "skeleton": [
-        {
-          "output": "/actions/default/in/skeletonlefthand",
-          "path": "/user/hand/left/input/skeleton/left"
-        },
-        {
-          "output": "/actions/default/in/skeletonrighthand",
-          "path": "/user/hand/right/input/skeleton/right"
-        }
-      ]
+      "skeleton": []
     },
     "/actions/platformer": {
       "chords": [],
+      "poses": [],
+      "haptics": [],
       "sources": [
         {
           "path": "/user/hand/left/input/thumbstick",
@@ -344,12 +299,21 @@
           }
         }
       ],
-      "poses": [],
-      "haptics": [],
       "skeleton": []
     },
     "/actions/htc_viu": {
       "chords": [],
+      "poses": [],
+      "haptics": [
+        {
+          "output": "/actions/htc_viu/out/viu_vib_01",
+          "path": "/user/hand/right/output/haptic"
+        },
+        {
+          "output": "/actions/htc_viu/out/viu_vib_01",
+          "path": "/user/hand/left/output/haptic"
+        }
+      ],
       "sources": [
         {
           "path": "/user/hand/right/input/system",
@@ -630,18 +594,10 @@
           }
         }
       ],
-      "poses": [],
-      "haptics": [
-        {
-          "output": "/actions/htc_viu/out/viu_vib_01",
-          "path": "/user/hand/right/output/haptic"
-        },
-        {
-          "output": "/actions/htc_viu/out/viu_vib_01",
-          "path": "/user/hand/left/output/haptic"
-        }
-      ],
       "skeleton": []
     }
-  }
+  },
+  "controller_type": "knuckles",
+  "description": "",
+  "name": "knuckles_default"
 }

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1D68E847-0324-ABDF-2B37-6AE01CCAEBA6}</ProjectGuid>
+    <ProjectGuid>{6888837D-A8A9-6C57-FBB2-29DDD7816E7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR_Editor</AssemblyName>
@@ -73,16 +73,16 @@
     <Compile Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_UpdateModeEditor.cs" />
     <None Include="Assets\9_Standard Assets\SteamVR\Editor\SteamVR_Editor.asmdef" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/2019.2.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -285,11 +285,14 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Assets/6_Generic/Library/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/UnityProjects/IITP_Mart/Assets/9_Standard Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Assets/9_Standard Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/UnityProjects/IITP_Mart/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/UnityProjects/IITP_Integrated_Mart/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/2019.2.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -654,7 +657,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{DC20F6DE-7D16-6438-6817-B8CEDC453C6C}</Project>
+      <Project>{5F068F29-E61B-A948-196D-21725B7AD8E4}</Project>
       <Name>SteamVR</Name>
     </ProjectReference>
   </ItemGroup>
